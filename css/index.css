@@ -117,13 +117,16 @@ nav div a {
 
     .navigation {
         flex-direction: column;
-        
+        border-bottom: 1px black solid;
     }
 
     .navigation a {
-        border-bottom: 1px black solid;
+        width: 100%;
+        text-align: center;
         border-top: 1px black solid;
+        padding: 3%;
     }
+    
 }
 
 .jumbotron {
